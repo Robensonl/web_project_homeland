@@ -1,0 +1,82 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lead__title {
+  max-width: 720px;
+  margin-top: 91px;
+  margin-bottom: 0;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+}
+
+.lead__subtitle {
+  max-width: 720px;
+  margin-top: 32px;
+  margin-bottom: 64px;
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  color: #fff;
+}
+
+.lead__image {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    font-size: 75px;
+    line-height: 79px;
+    text-align: center;
+    margin-top: 90px;
+    max-width: 530px;
+  }
+  .lead__subtitle {
+    max-width: 720px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+
+  .lead__image {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .lead__title {
+    max-width: 228px;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .lead__subtitle {
+    width: 288px;
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+
+  .lead__image {
+    width: 100%;
+    margin-top: 40px;
+  }
+}

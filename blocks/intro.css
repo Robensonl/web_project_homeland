@@ -1,0 +1,123 @@
+.intro {
+  max-width: 984px;
+  margin: 92px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro__title {
+  max-width: 830px;
+  font-family: "Inter";
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin: 0;
+}
+
+.intro__text1 {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.intro__text2 {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin: 0;
+}
+
+.intro__text3 {
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.08px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: 1024px;
+    margin: 90px 24px 0;
+  }
+  .intro__title {
+    max-width: 707px;
+    font-size: 45px;
+    line-height: 49px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    margin: 0 37px 0 24px;
+  }
+  .intro__text1 {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: justify;
+    padding: 0;
+    margin: 50px 0 0 24px;
+  }
+  .intro__text2 {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+  }
+  .intro__text3 {
+    font-size: 16px;
+    line-height: 26.08px;
+    text-align: left;
+    padding-left: 24px;
+    margin-top: 54px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .intro {
+    max-width: 544px;
+    margin: 0 16px 0 16px;
+  }
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    text-align: left;
+    margin: 48px 16px 0 16px;
+  }
+  .intro__text1 {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+    margin: 40px 16px 10px 16px;
+    padding-left: 0;
+  }
+
+  .intro__text2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: right;
+    margin: 0 16px 32px 16px;
+  }
+
+  .intro__text3 {
+    font-size: 16px;
+    line-height: 26.08px;
+    text-align: left;
+    margin: 0 16px 0 16px;
+    padding-left: 0;
+  }
+}
