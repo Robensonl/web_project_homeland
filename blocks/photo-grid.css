@@ -5,6 +5,7 @@
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 16px 16px;
   margin: 118px auto 92px auto;
+  gap: 20px;
 }
 
 .photo-grid__image {
