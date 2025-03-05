@@ -9,7 +9,7 @@ Este proyecto es una galería de arte digital donde se presentan historias y fot
 ## Estructura del Proyecto
 
 1. Clona el repositorio:
-   https://github.com/Robensonl/web_project_homeland.git
+   https://github.com/Robensonl/web_project_homeland
    La estructura del proyecto está organizada de la siguiente manera:
 
 - `index.html`: Página principal con todo el contenido del sitio.
