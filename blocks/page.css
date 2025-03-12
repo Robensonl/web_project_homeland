@@ -1,8 +1,9 @@
 .page {
+  font-family: "Inter", Arial, sans-serif;
+  /* font-weight: 400; */
+  color: white;
   background-color: #2a2c2f;
-  max-width: 100%;
-  font-family: Inter, sans-serif;
-  color: #ffffff;
-  margin: 0 auto;
-  padding-top: 34px;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
 }
